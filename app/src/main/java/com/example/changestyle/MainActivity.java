@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         TextView textView = findViewById(R.id.textView);
 
         btBackgroundColor.setOnClickListener(view -> {
-            textView.setBackgroundColor(Color.parseColor("#c9c9c9c"));
+            textView.setBackgroundColor(Color.parseColor("#FF3700B3"));
         });
 
         btNewText.setOnClickListener(view -> {
